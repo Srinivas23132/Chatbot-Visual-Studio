@@ -23,7 +23,7 @@ except LookupError:
     nltk.download('punkt', download_dir=nltk_data_path)
 
 # Specify the path to your intents.json file
-file_path = r"C:\Users\bhava\Downloads\Chatbot-Implementation-using-Python-NLP-main\Chatbot-Implementation-using-Python-NLP-main\intents.json"
+file_path = r"C:/Users/bhava/Downloads/Chatbot-Implementation-using-Python-NLP-main/Chatbot-Implementation-using-Python-NLP-main/intents.json"
 
 # Load intents from the JSON file
 if os.path.exists(file_path):
